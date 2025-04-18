@@ -117,7 +117,7 @@ public class Listadefackinnumeros {
                     break;
             
                 default:
-                System.out.println("Opción inválida, inténtelo nuevamente.");
+                System.out.println("Opción inválida, inténtelo nuevamente. puta perra vida");
                     break;
             }
         }
