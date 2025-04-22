@@ -1,2 +1,1 @@
-  ¿Que significa el "bro respeta"?
-Hermanos, ya me tienen cansado
+  ¿Que significa el "bro respeta"?. Hermanos, ya me tienen cansado
