@@ -1,4 +1,4 @@
-package Veterinaria;
+package POO.Veterinaria;
 
 public class Main {
     public static void main(String[] args) {

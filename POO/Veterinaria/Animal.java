@@ -1,4 +1,4 @@
-package Veterinaria;
+package POO.Veterinaria;
 
 abstract class Animal {
     private String nombre;
