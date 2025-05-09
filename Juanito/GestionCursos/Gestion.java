@@ -60,10 +60,6 @@ public class Gestion {
         }
     }
 
-
-    ////////////////////////////////////////////////////////////////////////////////
-    /// 
-    /// 
     public Aula buscarAula(String nombre){
         for(Aula i : aulasLista){
             if(nombre.equals(i.getNombreAula())){
@@ -123,10 +119,6 @@ public class Gestion {
         }
     }
 
-
-    ////////////////////////////////////////////////////////////////////////////////
-    /// 
-    /// 
     public Docente buscarDocente(long id){
         for(Docente i : docentesListas){
             if(id==i.getId()){
