@@ -1,4 +1,4 @@
-package POO.Veterinaria;
+package Veterinaria;
 
 public class Vaca extends Animal {
     public Vaca(String nombre){

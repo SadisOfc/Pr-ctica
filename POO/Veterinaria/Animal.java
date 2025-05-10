@@ -1,4 +1,4 @@
-package POO.Veterinaria;
+package Veterinaria;
 
 abstract class Animal {
     private String nombre;
@@ -7,5 +7,8 @@ abstract class Animal {
         this.nombre = nombre;
     }
 
+    public String getNombre(){
+        return nombre;
+    }
     abstract void hacerSonido();
 }
