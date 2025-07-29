@@ -28,28 +28,34 @@ public class Main {
                 case 2:
                     System.out.println("Restar");
                     System.out.println("Numerador");
-                     num1 = l.nextDouble();
+                    num1 = l.nextDouble();
                     System.out.println("Denominador");
-                     num2 = l.nextDouble();
-                     resultado = metodos.Restar(num1, num2);
+                    num2 = l.nextDouble();
+                    resultado = metodos.Restar(num1, num2);
                     System.out.println("Resultado: " + resultado);
                     break;
                 case 3:
                     System.out.println("Multiplicar");
                     System.out.println("Numerador");
-                     num1 = l.nextDouble();
+                    num1 = l.nextDouble();
                     System.out.println("Denominador");
-                     num2 = l.nextDouble();
-                     resultado = metodos.Multiplicar(num1, num2);
+                    num2 = l.nextDouble();
+                    resultado = metodos.Multiplicar(num1, num2);
                     System.out.println("Resultado: " + resultado);
                     break;
                 case 4:
                     System.out.println("Dividir");
                     System.out.println("Numerador");
-                     num1 = l.nextDouble();
+                    num1 = l.nextDouble();
+                    do{
                     System.out.println("Denominador");
-                     num2 = l.nextDouble();
-                     resultado = metodos.Sumar(num1, num2);
+                    num2 = l.nextDouble();
+                    if (num2==0){
+                        System.out.println("El denominador no puede ser cero");
+                    }
+                    } while (num2==0);
+                    
+                    resultado = metodos.Dividir(num1, num2);
                     System.out.println("Resultado: " + resultado);
                     break;
                 case 5:
